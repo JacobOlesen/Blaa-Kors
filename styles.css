@@ -27,21 +27,37 @@
 /* SHOP SEKTION PÅ FORSIDE */
 .shop {
     height: 700px;
-    background-color: grey;
+    width: 100%;
+    background-image: url(images/shopbaggrund.jpg);
     display: flex;
-    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .shop div {
-margin-top: 150px;
+width: 100%;
 }
 
+
+
 .damer {
-    height: 400px;
+    border: solid black 2px;
+    margin-top: 50px;
+    height: 600px;
     width: 300px;
-    margin-left: 100px;
+    margin-left: 170px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px #000000;
 }
+.damer :hover {
+    width: 350px;
+    height: 650px;
+}
+
 .herre {
+    margin-top: 150px;
     background-color: black;
     height: 400px;
     width: 300px;
@@ -49,21 +65,24 @@ margin-top: 150px;
     margin-right: 100px;
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px 18px #000000;
+    padding: 10px;
+    box-shadow: 0px 0px 15px #000000;
 }
+
 .interiør {
-    background-color: black;
+    margin-top: 150px;
+    background-image: url(images/interioer.jpg);
     height: 400px;
     width: 300px;
     margin-right: 100px;
     padding: 10px;
-    box-shadow: 5px 10px 18px #000000;
+    box-shadow: 0px 0px 15px #000000;
 }
 
 .damer h1 {
     color: blue;
     margin-left: 10px;
-    margin-top: 300px;
+    margin-top: 400px;
     font-size: 30pt;
     text-transform: uppercase;
 }
@@ -95,26 +114,30 @@ da der er flere linjer med H1 */
 /* DIY SEKTION PÅ FORSIDE */
 .diy {
     background-color: lightgray;
-    height: 500px;
+    height: 650px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .diy div {
-    background-color: black;
-    height: 350px;
-    width: 500px;
+    height: 500px;
+    width: 350px;
     margin-top: 75px;
     margin-left: 100px;
     margin-right: 100px;
     padding: 10px;
     box-shadow: 5px 10px 18px #000000;
+
+}
+
+#stearin {
+    background-image: url(images/diysterinlys.jpg);
 }
 
 .diy h1 {
     color: blue;
-    font-size: 30pt;
-    margin-top: 250px;
+    font-size: 28pt;
+    margin-top: 400px;
     margin-left: 10px;
     text-transform: uppercase;
 }
