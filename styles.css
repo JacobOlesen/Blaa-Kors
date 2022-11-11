@@ -3,3 +3,146 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Bliv Frivillig Sektion */
+.frivillig {
+    height: 300px;
+    background-color: lightgray;
+}
+.frivillig div {
+    text-align: center;
+}
+.frivillig h1 {
+    color: blue;
+    font-size: 30pt;
+    text-transform: uppercase;
+    padding-top: 90px;
+}
+.frivillig h2 {
+    color: blue;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+/* SHOP SEKTION PÅ FORSIDE */
+.shop {
+    height: 700px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.shop div {
+margin-top: 150px;
+}
+
+.damer {
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+}
+.herre {
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #000000;
+}
+.interiør {
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    margin-right: 100px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #000000;
+}
+
+.damer h1 {
+    color: blue;
+    margin-left: 10px;
+    margin-top: 300px;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+.herre h1 {
+    color: blue;
+    margin-left: 10px;
+    margin-top: 300px;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+.shop h2 {
+    color: blue;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.interiør h1 {
+    color: blue;
+    margin-left: 10px;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+/* Givet den et id, da margin top ikke skal være så høj i denne boks,
+da der er flere linjer med H1 */
+#interiørtop {
+    margin-top: 165px;
+}
+
+/* DIY SEKTION PÅ FORSIDE */
+.diy {
+    background-color: lightgray;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.diy div {
+    background-color: black;
+    height: 350px;
+    width: 500px;
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #000000;
+}
+
+.diy h1 {
+    color: blue;
+    font-size: 30pt;
+    margin-top: 250px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.diy h2 {
+    color: blue;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+/* VERDENSMÅL SEKTION PÅ FORSIDE */
+.verdensmål {
+    height: 300px;
+    background-color: black;
+}
+.verdensmål div {
+    text-align: center;
+}
+.verdensmål h1 {
+    color: white;
+    font-size: 30pt;
+    text-transform: uppercase;
+    padding-top: 90px;
+    width: 100%;
+}
+.verdensmål h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-decoration: underline;
+}
