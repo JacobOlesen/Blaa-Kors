@@ -8,14 +8,22 @@
     display: flex;
     justify-content: center;
 
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 5px;
 
     z-index: 100;
 }
 
 header{
-    position: sticky;
+    position: fixed;
+    top: 0px;
+
+    z-index: 1;
+
+    width: 100%;
+}
+
+main{
+    margin-top: 190px;
 }
 
 
@@ -50,9 +58,13 @@ nav .container .manu-main div li a{
 
 .manu-main,
 #logo{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
+
+nav{
+
+}
 
 
 
@@ -60,12 +72,6 @@ nav .container .manu-main div li a{
     background-image: url(img/banner.jpg);
     height: 850px;
     margin-top: -190px;
-}
-
-
-.menu-sub li{
-    margin-top: 5px;
-    color: blueviolet;
 }
 
 
@@ -77,9 +83,9 @@ nav .container .manu-main div li a{
 /*dropdown menuen*/
 .menu-sub{
     position: absolute;
-    width: 770px;
+    width: 820px;
 
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
 
     /*dropdown menuen vises ikke når musen ikke holdes over*/
     display: none;
@@ -87,6 +93,8 @@ nav .container .manu-main div li a{
     padding: 2em;
 
     margin-top: 20px;
+
+
 }
 
 /*dropdown menuen vises når musen holdes over Shop*/
