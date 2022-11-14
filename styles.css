@@ -3,3 +3,237 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#logo{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    z-index: 100;
+}
+
+header{
+    position: sticky;
+}
+
+
+/*nav bar*/
+nav ul{
+    list-style: none;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+/*hvert link box i nav*/
+nav li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*nav text*/
+nav a{
+    color: #012BFF;
+    text-decoration: none;
+
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+}
+
+nav .container .manu-main div li a{
+    font-weight: 300;
+}
+
+
+.manu-main,
+#logo{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+#banner{
+    background-image: url(img/header-img.jpg);
+    height: 800px;
+    margin-top: -190px;
+}
+
+
+.menu-sub li{
+    margin-top: 5px;
+    color: blueviolet;
+}
+
+
+/*Gør knapperne "Shop, Tips og tricks osv" lettere at ramme + dropdown menuen forsvinder ikke*/
+.nav-head{
+    padding: 20px;
+}
+
+/*dropdown menuen*/
+.menu-sub{
+    position: absolute;
+    width: 770px;
+
+    background-color: rgba(255, 255, 255, 0.3);
+
+    /*dropdown menuen vises ikke når musen ikke holdes over*/
+    display: none;
+
+    padding: 2em;
+
+    margin-top: 20px;
+}
+
+/*dropdown menuen vises når musen holdes over Shop*/
+nav li:hover .menu-sub{
+    display: block;
+}
+
+/**/
+.menu-sub li {
+    display: block;
+}
+
+/*dropdown store kategorier (dame, herre, børn, interiør)*/
+.menu-sub h3 {
+    text-align: left;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+
+}
+
+/*dropdown store små kategorier kasser (trøjer, toppe, bukser)*/
+.manu-main .menu-sub li{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 10px;
+
+    color: red;
+}
+
+/*dropdown store små kategorier skrift (trøjer, toppe, bukser)*/
+.manu-main .menu-sub li a{
+    color: black;
+}
+
+
+.menu-col-1,
+.menu-col-2,
+.menu-col-3,
+.menu-col-4{
+    float: left;
+    width: 25%;
+}
+
+
+/*hover efektter på "Trøjer, toppe, bukser osv"*/
+
+/*stregens egenskaber*/
+.menu-sub div ul li a {
+    position: relative;
+  }
+  
+  
+  .menu-sub div ul li a::after {
+    /*stregen skal være under teksten*/
+    content: '';
+
+    position: absolute;
+
+    /*stregen fylder tekstens bredde*/
+    width: 100%;
+
+    /*stregens x(bredde) starter med at være 0*/
+    transform: scaleX(0);
+
+    /*højde på stregen*/
+    height: 2px;
+
+    /*animationen skal starte i bunden i venstre af teksten*/
+    bottom: 0;
+    left: 0;
+
+    /*stregens farve*/
+    background-color: #002afa;
+
+    /*stregen slutter ud i højre side*/
+    transform-origin: bottom right;
+
+    /*animationen tager 0.25 sekunder*/
+    /*animationen starter hurtigigt og deaccelererer til slut*/
+    transition: transform 0.25s ease-out;
+  }
+  
+  .menu-sub div ul li a:hover::after {
+    /*stregens bredde(x-værdi) er synlig og hele rekstens 
+    bredde, når man stopper med at hover*/
+    transform: scaleX(1);
+
+    /*stregen starter med at forsvinde fra venstre side, 
+    når man stopper med at hover*/
+    transform-origin: bottom left;
+  }
+
+
+
+
+
+
+
+
+/*stregens egenskaber*/
+#hover-underline {
+    position: relative;
+  }
+  
+  
+  #hover-underline::after {
+    /*stregen skal være under teksten*/
+    content: '';
+
+    position: absolute;
+
+    /*stregen fylder tekstens bredde*/
+    width: 100%;
+
+    /*stregens x(bredde) starter med at være 0*/
+    transform: scaleX(0);
+
+    /*højde på stregen*/
+    height: 3px;
+
+    /*animationen skal starte i bunden i venstre af teksten*/
+    bottom: -7px;
+    left: 0;
+
+    /*stregens farve*/
+    background-color: #002afa;
+
+    /*stregen slutter ud i højre side*/
+    transform-origin: bottom right;
+
+    /*animationen tager 0.25 sekunder*/
+    /*animationen starter hurtigigt og deaccelererer til slut*/
+    transition: transform 0.25s ease-out;
+  }
+  
+  #hover-underline:hover::after {
+    /*stregens bredde(x-værdi) er synlig og hele rekstens 
+    bredde, når man stopper med at hover*/
+    transform: scaleX(1);
+
+    /*stregen starter med at forsvinde fra venstre side, 
+    når man stopper med at hover*/
+    transform-origin: bottom left;
+  }
+
+
+
