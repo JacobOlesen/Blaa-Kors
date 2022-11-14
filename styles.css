@@ -237,3 +237,43 @@ nav li:hover .menu-sub{
 
 
 
+/* HER STARTER FOOTEREN */
+footer {
+    height: 250px;
+    background-color: grey;
+
+}
+
+/* Ikonerne i footeren */
+.icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+footer section div svg {
+    height: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Navigation i footeren */
+.navfooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.navfooter a {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+/* vertikal streg mellem nav i footeren */
+.border {
+    border-right: 2px solid black;
+}
