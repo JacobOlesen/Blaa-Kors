@@ -47,8 +47,8 @@ nav a{
     color: #012BFF;
     text-decoration: none;
 
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
 
 nav .container .manu-main div li a{
@@ -58,12 +58,17 @@ nav .container .manu-main div li a{
 
 .manu-main,
 #logo{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 
 nav{
 
+}
+
+.nav-head h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
 }
 
 
@@ -72,6 +77,30 @@ nav{
     background-image: url(img/banner.jpg);
     height: 850px;
     margin-top: -190px;
+    display: flex;
+    justify-content: center;
+}
+
+#banner div {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    top: 400px;
+    width: 800px;
+    height: 150px;
+}
+#banner h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: blue;
+    text-align: center;
+    font-size: 50pt;
+}
+#banner h2 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: blue;
+    text-align: center;
 }
 
 
@@ -285,6 +314,9 @@ footer section div svg {
 .border {
     border-right: 2px solid black;
 }
+
+
+
 /* Bliv Frivillig Sektion */
 .frivillig {
     height: 300px;
@@ -298,12 +330,14 @@ footer section div svg {
     font-size: 30pt;
     text-transform: uppercase;
     padding-top: 90px;
+    font-family: 'Oswald', sans-serif;
 }
 .frivillig h2 {
     color: blue;
     text-transform: uppercase;
     margin-top: 10px;
     text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* SHOP SEKTION PÅ FORSIDE */
@@ -385,7 +419,13 @@ width: 100%;
     margin-left: 10px;
     margin-top: 10px;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
+.shop h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 .interiør h1 {
     color: blue;
     margin-left: 10px;
@@ -427,12 +467,15 @@ da der er flere linjer med H1 */
     margin-top: 400px;
     margin-left: 10px;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
 }
 .diy h2 {
     color: blue;
     margin-left: 10px;
     margin-top: 10px;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
 
 /* VERDENSMÅL SEKTION PÅ FORSIDE */
@@ -449,10 +492,12 @@ da der er flere linjer med H1 */
     text-transform: uppercase;
     padding-top: 90px;
     width: 100%;
+    font-family: 'Oswald', sans-serif;
 }
 .verdensmål h2 {
     color: white;
     text-transform: uppercase;
     margin-top: 10px;
     text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
 }
