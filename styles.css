@@ -277,3 +277,174 @@ footer section div svg {
 .border {
     border-right: 2px solid black;
 }
+/* Bliv Frivillig Sektion */
+.frivillig {
+    height: 300px;
+    background-color: lightgray;
+}
+.frivillig div {
+    text-align: center;
+}
+.frivillig h1 {
+    color: blue;
+    font-size: 30pt;
+    text-transform: uppercase;
+    padding-top: 90px;
+}
+.frivillig h2 {
+    color: blue;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+/* SHOP SEKTION PÅ FORSIDE */
+.shop {
+    height: 700px;
+    width: 100%;
+    background-image: url(images/shopbaggrund.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shop div {
+width: 100%;
+}
+
+
+
+.damer {
+    border: solid black 2px;
+    margin-top: 50px;
+    height: 600px;
+    width: 300px;
+    margin-left: 170px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px #000000;
+    background-image: url(images/damer.jpg);
+    background-size: cover;
+}
+.shop :hover { 
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+#nottarget, #interiørtop {
+    transform: scale(1.0);
+}
+
+.herre {
+    margin-top: 150px;
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid;
+    padding: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px #000000;
+}
+
+.interiør {
+    margin-top: 150px;
+    background-image: url(images/interioer.jpg);
+    height: 400px;
+    width: 300px;
+    margin-right: 100px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px #000000;
+}
+
+.damer h1 {
+    color: blue;
+    margin-left: 10px;
+    margin-top: 400px;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+.herre h1 {
+    color: blue;
+    margin-left: 10px;
+    margin-top: 300px;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+.shop h2 {
+    color: blue;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.interiør h1 {
+    color: blue;
+    margin-left: 10px;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+/* Givet den et id, da margin top ikke skal være så høj i denne boks,
+da der er flere linjer med H1 */
+#interiørtop {
+    margin-top: 165px;
+}
+
+/* DIY SEKTION PÅ FORSIDE */
+.diy {
+    background-color: lightgray;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.diy div {
+    height: 500px;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #000000;
+
+}
+
+#stearin {
+    background-image: url(images/diysterinlys.jpg);
+}
+
+.diy h1 {
+    color: blue;
+    font-size: 28pt;
+    margin-top: 400px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.diy h2 {
+    color: blue;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+/* VERDENSMÅL SEKTION PÅ FORSIDE */
+.verdensmål {
+    height: 300px;
+    background-color: black;
+}
+.verdensmål div {
+    text-align: center;
+}
+.verdensmål h1 {
+    color: white;
+    font-size: 30pt;
+    text-transform: uppercase;
+    padding-top: 90px;
+    width: 100%;
+}
+.verdensmål h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-decoration: underline;
+}
