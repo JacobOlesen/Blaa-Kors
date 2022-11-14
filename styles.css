@@ -58,13 +58,10 @@ nav .container .manu-main div li a{
 
 .manu-main,
 #logo{
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 
-nav{
-
-}
 
 .nav-head h3 {
     font-family: 'Oswald', sans-serif;
@@ -82,7 +79,7 @@ nav{
 }
 
 #banner div {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
     position: relative;
     top: 400px;
     width: 800px;
@@ -114,7 +111,7 @@ nav{
     position: absolute;
     width: 820px;
 
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
 
     /*dropdown menuen vises ikke når musen ikke holdes over*/
     display: none;
@@ -122,7 +119,6 @@ nav{
     padding: 2em;
 
     margin-top: 20px;
-
 
 }
 
@@ -274,49 +270,6 @@ nav li:hover .menu-sub{
 
 
 
-/* HER STARTER FOOTEREN */
-footer {
-    height: 250px;
-    background-color: grey;
-
-}
-
-/* Ikonerne i footeren */
-.icons {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding-top: 50px;
-}
-
-footer section div svg {
-    height: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-/* Navigation i footeren */
-.navfooter {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-top: 50px;
-}
-
-.navfooter a {
-    padding-left: 25px;
-    padding-right: 25px;
-    text-decoration: none;
-    color: black;
-}
-
-/* vertikal streg mellem nav i footeren */
-.border {
-    border-right: 2px solid black;
-}
-
-
-
 /* Bliv Frivillig Sektion */
 .frivillig {
     height: 300px;
@@ -403,14 +356,14 @@ width: 100%;
 .damer h1 {
     color: blue;
     margin-left: 10px;
-    margin-top: 400px;
+    margin-top: 365px;
     font-size: 30pt;
     text-transform: uppercase;
 }
 .herre h1 {
     color: blue;
     margin-left: 10px;
-    margin-top: 300px;
+    margin-top: 265px;
     font-size: 30pt;
     text-transform: uppercase;
 }
@@ -435,16 +388,16 @@ width: 100%;
 /* Givet den et id, da margin top ikke skal være så høj i denne boks,
 da der er flere linjer med H1 */
 #interiørtop {
-    margin-top: 165px;
+    margin-top: 90px;
 }
 
 /* DIY SEKTION PÅ FORSIDE */
 .diy {
-    background-color: lightgray;
     height: 650px;
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: lightgray;
 }
 .diy div {
     height: 500px;
@@ -458,13 +411,16 @@ da der er flere linjer med H1 */
 }
 
 #stearin {
-    background-image: url(images/diysterinlys.jpg);
+    background-image: url(images/stearinlys.jpg);
+}
+#redskabsholder {
+    background-image: url(images/redskabsholder.jpg);
 }
 
 .diy h1 {
     color: blue;
     font-size: 28pt;
-    margin-top: 400px;
+    margin-top: 370px;
     margin-left: 10px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -476,6 +432,10 @@ da der er flere linjer med H1 */
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+}
+.diy :hover { 
+    transform: scale(1.1);
+    transition: 0.25s;
 }
 
 /* VERDENSMÅL SEKTION PÅ FORSIDE */
@@ -500,4 +460,47 @@ da der er flere linjer med H1 */
     margin-top: 10px;
     text-decoration: underline;
     font-family: 'Oswald', sans-serif;
+}
+
+/* HER STARTER FOOTEREN */
+footer {
+    height: 250px;
+    background-color: lightgrey;
+}
+
+/* Ikonerne i footeren */
+.icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+footer section div svg {
+    height: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Navigation i footeren */
+.navfooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.navfooter a {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    
+}
+
+/* vertikal streg mellem nav i footeren */
+.border {
+    border-right: 2px solid black;
 }
