@@ -51,6 +51,7 @@ nav a{
 
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    font-size: 14pt;
 }
 
 nav .container .manu-main div li a{
@@ -60,7 +61,7 @@ nav .container .manu-main div li a{
 
 .manu-main,
 #logo{
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -81,7 +82,7 @@ nav .container .manu-main div li a{
 }
 
 #banner div {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     position: relative;
     top: 400px;
     width: 800px;
