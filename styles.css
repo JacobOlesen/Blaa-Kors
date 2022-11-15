@@ -4,20 +4,22 @@
     box-sizing: border-box;
 }
 
+
 #logo{
     display: flex;
     justify-content: center;
 
     padding-top: 5px;
 
-    z-index: 100;
+    z-index: 1;
 
     height: 70px;
+    
 }
 
 
 
-header{
+.header-pc{
     position: fixed;
     top: 0px;
 
@@ -272,6 +274,68 @@ nav li:hover .menu-sub{
     når man stopper med at hover*/
     transform-origin: bottom left;
   }
+
+  @media only screen and (max-width: 890px) {
+    .header-pc {
+      display: none;
+    }
+
+    .header-mobil{
+        margin-top: 170px;
+        height: 80px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-around;
+        align-items: center;
+
+        position: fixed;
+
+        z-index: 100;
+    }
+
+    .logo-mobil img{
+        height: 40px;
+    }
+
+    .kurv-mobil{
+        scale: 80%;
+        position: relative;
+    }
+    
+    .main-forside{
+        margin-top: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 890px) {
+    .header-mobil {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
