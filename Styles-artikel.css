@@ -3,3 +3,76 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main section div img{
+    width: 100%;
+}
+
+
+
+
+
+.float-box{
+    text-align: center;
+
+    background-color: white;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -160px;
+
+    position: relative;
+}
+
+.float-box h1{
+    font-size: 34pt;
+    
+    margin-bottom: 16px;
+}
+
+.float-box h3{
+    font-size: 20pt;
+
+    margin-bottom: 16px;
+}
+
+.artikel{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.artikel div img{
+    margin-bottom: 50px;
+}
+
+.tekst h4{
+    font-size: 18pt;
+
+    margin-bottom: 16px;
+}
+
+.tekst p{
+    font-size: 14pt;
+    margin-bottom: 30px;
+
+    line-height: 28px;
+}
+
+.redskaber h4{
+    font-size: 18pt;
+
+    margin-bottom: 16px;
+}
+
+.redskaber p{
+    font-size: 14pt;
+    margin-bottom: 15px;
+}
+
+.redskaber{
+    margin-bottom: 50px;
+}
+
