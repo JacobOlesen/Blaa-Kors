@@ -176,51 +176,9 @@ nav li:hover .menu-sub{
 
 /*hover efektter på "Trøjer, toppe, bukser osv"*/
 
-/*stregens egenskaber*/
-.menu-sub div ul li a {
-    position: relative;
-  }
-  
-  
-  .menu-sub div ul li a::after {
-    /*stregen skal være under teksten*/
-    content: '';
-
-    position: absolute;
-
-    /*stregen fylder tekstens bredde*/
-    width: 100%;
-
-    /*stregens x(bredde) starter med at være 0*/
-    transform: scaleX(0);
-
-    /*højde på stregen*/
-    height: 2px;
-
-    /*animationen skal starte i bunden i venstre af teksten*/
-    bottom: 0;
-    left: 0;
-
-    /*stregens farve*/
-    background-color: #002afa;
-
-    /*stregen slutter ud i højre side*/
-    transform-origin: bottom right;
-
-    /*animationen tager 0.25 sekunder*/
-    /*animationen starter hurtigigt og deaccelererer til slut*/
-    transition: transform 0.25s ease-out;
-  }
-  
-  .menu-sub div ul li a:hover::after {
-    /*stregens bredde(x-værdi) er synlig og hele rekstens 
-    bredde, når man stopper med at hover*/
-    transform: scaleX(1);
-
-    /*stregen starter med at forsvinde fra venstre side, 
-    når man stopper med at hover*/
-    transform-origin: bottom left;
-  }
+.menu-sub div ul li a:hover{
+    border-bottom: solid  rgb(0, 0, 210) 2px;
+}
 
 
 
