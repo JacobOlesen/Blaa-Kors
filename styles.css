@@ -554,3 +554,62 @@ footer section div svg {
     font-weight: 300;
 }
 
+
+
+/* HER STARTER SHOP DAME */
+#topshop {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 210);
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+#topshop h2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.weight300 {
+    font-weight: 300;
+}
+.shopdameflex {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 210);
+}
+.shopdameflex h2 {
+    padding-top: 200px;
+    padding-left: 200px;
+    width: 100%;
+}
+.shopkategori {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.shopkategori h1 {
+    margin-top: 20px;
+}
+.kategoriwidth {
+    width: 150px;
+}
+.plus {
+    margin-left: 50px;
+    width: 50px;
+}
+.hvid {
+    width: 150px;
+    color: white;
+}
+.plushvid {
+    margin-left: 50px;
+    width: 50px;
+    color: white;
+}
+.shopdamebillede {
+    background-color: red;
+    height: 400px;
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
