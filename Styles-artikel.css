@@ -8,19 +8,27 @@ main section div img{
     width: 100%;
 }
 
+.flex-float-box{
+    display: flex;
+    justify-content: center;
+}
+
 .float-box{
     text-align: center;
 
+    position: relative;
+    bottom: 150px;
+
     background-color: white;
 
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 30px 0px 30px;
 
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: -160px;
+    margin-bottom: -50px;
 
-    position: relative;
+    width: 60%;
+
+    min-width: 300px;
+
 }
 
 .float-box h1{
@@ -36,9 +44,9 @@ main section div img{
 }
 
 .artikel{
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-left: 15%;
+    padding-right: 15%;
+
 }
 
 .artikel div img{
@@ -56,6 +64,11 @@ main section div img{
     margin-bottom: 30px;
 
     line-height: 28px;
+}
+
+.redskaber li{
+    font-size: 14pt;
+    line-height: 35px;
 }
 
 .redskaber h4{
@@ -82,6 +95,7 @@ main section div img{
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
+        bottom: -30px;
     }
     100% {
         opacity: 1;
@@ -89,3 +103,21 @@ main section div img{
 }
 
 
+@media only screen and (max-width: 890px) {
+    .flex-float-box h1{
+      font-size: 22pt;
+    }
+
+    .flex-float-box h3{
+        font-size: 14pt;
+      }
+
+      .flex-float-box h5{
+        font-size: 8pt;
+      }
+
+      .artikel{
+        padding-left: 10%;
+        padding-right: 10%;
+    
+    }
