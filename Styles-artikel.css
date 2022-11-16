@@ -119,5 +119,10 @@ main section div img{
       .artikel{
         padding-left: 10%;
         padding-right: 10%;
-    
     }
+
+    .float-box{
+        bottom: 100px;
+    }
+
+}
