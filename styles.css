@@ -320,7 +320,23 @@ nav li:hover .menu-sub{
     }
 
     .navfooter a{
-        font-size: 8pt;
+        font-size: 6pt;
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    footer section div svg{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .shopfp .shoph3{
+        font-size: 12pt;
+    }
+
+    .shopfp .shoph1{
+        font-size: 15pt;
     }
 
   }
@@ -604,6 +620,7 @@ footer section div svg {
 .shopfp {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    
 }
 .shoph1, .shoph2, .shoph3 {
     align-items: center;
@@ -615,6 +632,7 @@ footer section div svg {
 }
 .shoph2 {
     margin-top: 50px;
+    
 }
 .shoph2 h2 {
     padding: 10px;
@@ -622,6 +640,10 @@ footer section div svg {
     margin-left: 10px;
     margin-right: 10px;
     font-weight: 200;
+}
+
+.shopfp .shoph2 a{
+    text-decoration: none;
 }
 .shoph3 {
     padding-top: 400px;
