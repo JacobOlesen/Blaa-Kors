@@ -231,7 +231,7 @@ nav li:hover .menu-sub{
     }
 
     .header-mobil{
-        margin-top: 170px;
+        margin-top: 0px;
         height: 80px;
         width: 100%;
         background-color: rgba(255, 255, 255, 0.7);
@@ -598,33 +598,30 @@ footer section div svg {
 }
 .shopkategori {
     display: flex;
-    margin-left: 100px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .shopkategori h1 {
     margin-top: 20px;
 }
-.kategoriwidth {
-    width: 150px;
-}
+
 .plus {
-    margin-left: 50px;
-    width: 50px;
+    margin-left: 90px;
 }
 .hvid {
-    width: 150px;
+    margin-left: 90px;
     color: white;
 }
 .plushvid {
-    margin-left: 50px;
-    width: 50px;
     color: white;
 }
 .shopdamebillede {
-    background-color: red;
     height: 400px;
     width: 300px;
     margin-left: 25px;
     margin-right: 25px;
+}
+.shopdamebillede img {
+
 }
