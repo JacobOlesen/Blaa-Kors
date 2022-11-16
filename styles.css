@@ -345,13 +345,13 @@ width: 100%;
     transition: 0.25s;
 }
 
-#nottarget, #interiørtop {
+.shop .nottarget, .shop .interiørtop{
     transform: scale(1.0);
 }
 
 .herre {
     margin-top: 150px;
-    background-color: black;
+    background-image: url(images/herre.jpg);
     height: 400px;
     width: 300px;
     margin-left: 100px;
@@ -406,7 +406,7 @@ width: 100%;
 }
 /* Givet den et id, da margin top ikke skal være så høj i denne boks,
 da der er flere linjer med H1 */
-#interiørtop {
+.interiørtop {
     margin-top: 90px;
 }
 
