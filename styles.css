@@ -5,6 +5,8 @@
 }
 
 
+
+/* HER STARTER HEADER */
 #logo a img{
     display: flex;
     justify-content: center;
@@ -15,8 +17,6 @@
 
     height: 70px;
 }
-
-
 #top{
     display: flex;
     justify-content: center;
@@ -27,18 +27,12 @@
     right: 50px;
     top: 20px;
 }
-
 #kurv:hover{
     cursor: pointer;
 }
-
-
 .header-pc{
     background-color: rgba(255, 255, 255, 0.8);
 }
-
-
-
 .header-pc{
     position: fixed;
     top: 0px;
@@ -47,10 +41,6 @@
 
     width: 100%;
 }
-
-
-
-
 /*nav bar*/
 nav ul{
     list-style: none;
@@ -58,14 +48,12 @@ nav ul{
     text-align: center;
     width: 100%;
 }
-
 /*hvert link box i nav*/
 nav li{
     display: inline-block;
     margin-left: 50px;
     margin-right: 50px;
 }
-
 /*nav text*/
 nav a{
     color: rgb(0, 0, 210);
@@ -75,13 +63,9 @@ nav a{
     font-weight: 400;
     font-size: 14pt;
 }
-
 nav .container .manu-main div li a{
     font-weight: 300;
 }
-
-
-
 .nav-head .menu-sub h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -90,50 +74,13 @@ nav .container .manu-main div li a{
 }
 
 
-
-#banner{
-    background-image: url(img/banner.jpg);
-    height: 850px;
-    display: flex;
-    justify-content: center;
-}
-
-#banner div {
-
-    position: relative;
-    top: 300px;
-    width: 60%;
-    height: 150px;
-}
-#banner h1 {
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    color: rgb(0, 0, 210);
-    text-align: center;
-    font-size: 50pt;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#banner h2 {
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    color: rgb(0, 0, 210);
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-right: 10px;
-    padding-left: 10px;
-    
-}
-
-
 /*Gør knapperne "Shop, Tips og tricks osv" lettere at ramme + dropdown menuen forsvinder ikke*/
 .nav-head{
     padding: 20px;
 }
 
-/*dropdown menuen*/
+
+/* HER STARTER DROPDOWN MENU*/
 .menu-sub{
     position: absolute;
     width: 820px;
@@ -148,28 +95,21 @@ nav .container .manu-main div li a{
     margin-top: 20px;
 
 }
-
 /*dropdown menuen vises når musen holdes over Shop*/
 nav li:hover .menu-sub{
     display: block;
 }
-
 /**/
 .menu-sub li {
     display: block;
 }
-
 /*dropdown store kategorier (dame, herre, børn, interiør)*/
 .menu-sub h3 {
     text-align: left;
 
     margin-top: 10px;
     margin-bottom: 20px;
-
-
-
 }
-
 /*dropdown store små kategorier kasser (trøjer, toppe, bukser)*/
 .manu-main .menu-sub li{
     text-align: left;
@@ -178,13 +118,10 @@ nav li:hover .menu-sub{
 
     color: red;
 }
-
 /*dropdown store små kategorier skrift (trøjer, toppe, bukser)*/
 .manu-main .menu-sub li a{
     color: black;
 }
-
-
 .menu-col-1,
 .menu-col-2,
 .menu-col-3,
@@ -192,30 +129,15 @@ nav li:hover .menu-sub{
     float: left;
     width: 25%;
 }
-
-
 /*hover efektter på "Trøjer, toppe, bukser osv"*/
-
 .menu-sub div ul li a:hover{
     border-bottom: solid  rgb(0, 0, 210) 2px;
 }
-
-
-
-
-
-
-
-
-
-
 /*stregens egenskaber*/
 .hover-underline {
     position: relative;
   }
-  
-  
-  .hover-underline::after {
+.hover-underline::after {
     /*stregen skal være under teksten*/
     content: '';
 
@@ -244,7 +166,6 @@ nav li:hover .menu-sub{
     /*animationen starter hurtigigt og deaccelererer til slut*/
     transition: transform 0.25s ease-out;
   }
-  
   .hover-underline:hover::after {
     /*stregens bredde(x-værdi) er synlig og hele rekstens 
     bredde, når man stopper med at hover*/
@@ -255,125 +176,94 @@ nav li:hover .menu-sub{
     transform-origin: bottom left;
   }
 
-  @media only screen and (max-width: 890px) {
-    .header-pc {
-      display: none;
+
+/*HER STARTER BURGER MENU*/
+
+.burger-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
     }
 
-    .header-mobil{
-        margin-top: 0px;
-        height: 80px;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.7);
-        display: flex;
-        align-items: center;
-        
-        justify-content: space-around;
-        align-items: center;
-
-        position: fixed;
-
-        z-index: 100;
-    }
-
-    .logo-mobil img{
-        height: 40px;
-    }
-
-    .kurv-mobil{
-        scale: 80%;
-        position: relative;
-    }
-    
-   
-
-    .diy{
-        display: block;
-        flex-direction: column;
-
-        padding-bottom: 700px;
-        padding-top: 600px;
-    }
-
-    .diy .stearin, .diy .redskabsholder {
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-    #banner h1{
-        font-size: 28pt;
-    }
-
-    #banner h2{
-        font-size: 15pt;
-    }
-
-    .shop{
-        flex-direction: column;
-        
-        padding-top: 820px;
-        padding-bottom: 900px;
-    }
-    .shop .damer, .shop .herre, .shop .interiør {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .navfooter a{
-        font-size: 6pt;
-
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    footer section div svg{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .shopfp .shoph3{
-        font-size: 12pt;
-    }
-
-    .shopfp .shoph1{
-        font-size: 15pt;
-    }
-
-  }
-
-  @media only screen and (min-width: 890px) {
-    .header-mobil {
-      display: none;
-    }
-    .filtermobil {
-        display: none;
-    }
-  }
+.burger-body {
+    -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    color: white;
+}
+@keyframes slide-in-blurred-top{
+0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+}
+100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+}
+}
+.burger-body .burger-nav img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.burger-body .burger-nav a{
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+}
 
 
 
 
+/* HER STARTER FØRSTE SEKTION PÅ FORSIDEN */
+#banner{
+    background-image: url(img/banner.jpg);
+    height: 850px;
+    display: flex;
+    justify-content: center;
+}
+#banner div {
+    position: relative;
+    top: 300px;
+    width: 60%;
+    height: 150px;
+}
+#banner h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 210);
+    text-align: center;
+    font-size: 50pt;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#banner h2 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 210);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-right: 10px;
+    padding-left: 10px; 
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Bliv Frivillig Sektion */
+/* Bliv Frivillig Sektion På Forsiden */
 .frivillig {
     height: 300px;
     background-color: lightgray;
@@ -395,7 +285,6 @@ nav li:hover .menu-sub{
     text-decoration: underline;
     font-family: 'Oswald', sans-serif;
 }
-
 /* SHOP SEKTION PÅ FORSIDE */
 .shop {
     height: 700px;
@@ -407,7 +296,6 @@ nav li:hover .menu-sub{
     background-size: cover;
     justify-content: center;
 }
-
 .damer {
     border: solid black 2px;
     margin-top: 50px;
@@ -423,12 +311,10 @@ nav li:hover .menu-sub{
     transform: scale(1.1);
     transition: 0.25s;
 }
-
 #nottarget, #interiørtop {
     transform: scale(1.0);
     width: 160px;
 }
-
 .herre {
     margin-top: 150px;
     background-color: black;
@@ -441,7 +327,6 @@ nav li:hover .menu-sub{
     padding: 10px;
     box-shadow: 0px 0px 15px #000000;
 }
-
 .interiør {
     margin-top: 150px;
     background-image: url(images/interioer.jpg);
@@ -452,7 +337,6 @@ nav li:hover .menu-sub{
     box-shadow: 0px 0px 15px #000000;
     background-size: cover;
 }
-
 .damer h1 {
     color: rgb(0, 0, 210);
     margin-left: 10px;
@@ -478,7 +362,6 @@ nav li:hover .menu-sub{
 .shop h1 {
     font-family: 'Oswald', sans-serif;
 }
-
 .interiør h1 {
     color: rgb(0, 0, 210);
     margin-left: 10px;
@@ -490,6 +373,9 @@ da der er flere linjer med H1 */
 #interiørtop {
     margin-top: 90px;
 }
+
+
+
 
 /* DIY SEKTION PÅ FORSIDE */
 .diy {
@@ -509,14 +395,12 @@ da der er flere linjer med H1 */
     box-shadow: 5px 10px 18px #000000;
 
 }
-
 .stearin {
     background-image: url(images/stearinlys.jpg);
 }
 .redskabsholder {
     background-image: url(images/redskabsholder.jpg);
 }
-
 .diy h1 {
     color: rgb(0, 0, 210);
     font-size: 28pt;
@@ -538,6 +422,9 @@ da der er flere linjer med H1 */
     transform: scale(1.1);
     transition: 0.25s;
 }
+
+
+
 
 /* VERDENSMÅL SEKTION PÅ FORSIDE */
 .verdensmål {
@@ -563,59 +450,16 @@ da der er flere linjer med H1 */
     font-family: 'Oswald', sans-serif;
 }
 
-/* HER STARTER FOOTEREN */
-footer {
-    height: 250px;
-    background-color: lightgrey;
-}
-
-/* Ikonerne i footeren */
-.icons {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding-top: 50px;
-}
-
-footer section div svg {
-    height: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-/* Navigation i footeren */
-.navfooter {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-top: 50px;
-}
-
-.navfooter a {
-    padding-left: 25px;
-    padding-right: 25px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    
-}
-
-/* vertikal streg mellem nav i footeren */
-.border {
-    border-right: 2px solid black;
-}
 
 
 
-/* HER STARTER SHOP UNDERSIDEN */
+/* HER STARTER SHOP */
 .shopfp {
     background-image: url(images/shopbanner.jpg);
     width: 100%;
     background-size: cover;
     height: 1400px;
 }
-
 .shopfp div {
     display: flex;
     width: 100%;
@@ -644,7 +488,6 @@ footer section div svg {
     margin-right: 10px;
     font-weight: 200;
 }
-
 .shopfp .shoph2 a{
     text-decoration: none;
 }
@@ -671,7 +514,6 @@ footer section div svg {
     margin-left: 5px;
     margin-right: 5px;
 }
-
 .weight300 {
     font-weight: 300;
 }
@@ -693,7 +535,6 @@ footer section div svg {
 .shopkategori h1 {
     margin-top: 20px;
 }
-
 .plus {
     margin-left: 90px;
 }
@@ -740,63 +581,147 @@ footer section div svg {
         margin-right: 5px;
         font-weight: 300;
     }
+}
+@media only screen and (min-width: 890px) {
+    .filtermobil {
+        display: none;
+    }
+  }
 
+
+
+
+
+/* HER STARTER FOOTEREN */
+footer {
+    height: 250px;
+    background-color: lightgrey;
 }
 
-
-
-
-/*Her starter css til burger menu*/
-
-.burger-nav {
-    width: 100%;
+/* Ikonerne i footeren */
+.icons {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-
-    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
 }
 
-
-
-
-
-.burger-body {
-    -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-    animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-    color: white;
+footer section div svg {
+    height: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-@keyframes slide-in-blurred-top{
-0% {
-    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-    -webkit-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-    -webkit-filter: blur(40px);
-    filter: blur(40px);
-    opacity: 0;
-}
-
-100% {
-    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
-    transform: translateY(0) scaleY(1) scaleX(1);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-}
-}
-
-.burger-body .burger-nav img{
-    width: 70%;
-    margin-bottom: 20px;
-}
-
-.burger-body .burger-nav a{
-    font-size: 20pt;
+/* Navigation i footeren */
+.navfooter {
     display: flex;
     justify-content: center;
+    width: 100%;
+    padding-top: 50px;
 }
+
+.navfooter a {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    
+}
+
+/* vertikal streg mellem nav i footeren */
+.border {
+    border-right: 2px solid black;
+}
+
+
+
+
+@media only screen and (max-width: 890px) {
+    .header-pc {
+      display: none;
+    }
+
+    .header-mobil{
+        margin-top: 0px;
+        height: 80px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-around;
+        align-items: center;
+
+        position: fixed;
+
+        z-index: 100;
+    }
+
+    .logo-mobil img{
+        height: 40px;
+    }
+
+    .kurv-mobil{
+        scale: 80%;
+        position: relative;
+    }
+    
+    .diy{
+        flex-direction: column;
+        padding-top: 550px;
+        padding-bottom: 650px;
+    }
+
+    .diy .stearin, .diy .redskabsholder {
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #banner h1{
+        font-size: 28pt;
+    }
+
+    #banner h2{
+        font-size: 15pt;
+    }
+
+    .shop{
+        flex-direction: column;
+        
+        padding-top: 820px;
+        padding-bottom: 900px;
+    }
+    .shop .damer, .shop .herre, .shop .interiør {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navfooter a{
+        font-size: 6pt;
+
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    footer section div svg{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .shopfp .shoph3{
+        font-size: 12pt;
+    }
+
+    .shopfp .shoph1{
+        font-size: 15pt;
+    }
+
+  }
+
+  @media only screen and (min-width: 890px) {
+    .header-mobil {
+      display: none;
+    }
+  }
