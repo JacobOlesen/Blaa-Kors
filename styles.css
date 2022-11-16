@@ -5,7 +5,7 @@
 }
 
 
-#logo{
+#logo a img{
     display: flex;
     justify-content: center;
 
@@ -14,6 +14,27 @@
     z-index: 1;
 
     height: 70px;
+}
+
+
+#top{
+    display: flex;
+    justify-content: center;
+}
+
+#kurv{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+#kurv:hover{
+    cursor: pointer;
+}
+
+
+.header-pc{
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -62,16 +83,12 @@ nav .container .manu-main div li a{
 }
 
 
-.manu-main,
-#logo{
-    background-color: rgba(255, 255, 255, 0.8);
-}
 
-
-
-.nav-head h3 {
+.nav-head .menu-sub h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
+
+    color: black;
 }
 
 
@@ -117,7 +134,7 @@ nav .container .manu-main div li a{
     position: absolute;
     width: 820px;
 
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: white;
 
     /*dropdown menuen vises ikke når musen ikke holdes over*/
     display: none;
@@ -144,6 +161,7 @@ nav li:hover .menu-sub{
 
     margin-top: 10px;
     margin-bottom: 20px;
+
 
 
 }
@@ -179,6 +197,14 @@ nav li:hover .menu-sub{
 }
 
 
+
+
+
+
+
+
+
+
 /*stregens egenskaber*/
 .hover-underline {
     position: relative;
@@ -205,7 +231,7 @@ nav li:hover .menu-sub{
     left: 0;
 
     /*stregens farve*/
-    background-color: rgb(0, 0, 210);
+    background-color: #002afa;
 
     /*stregen slutter ud i højre side*/
     transform-origin: bottom right;
@@ -345,13 +371,13 @@ width: 100%;
     transition: 0.25s;
 }
 
-.shop .nottarget, .shop .interiørtop{
+#nottarget, #interiørtop {
     transform: scale(1.0);
 }
 
 .herre {
     margin-top: 150px;
-    background-image: url(images/herre.jpg);
+    background-color: black;
     height: 400px;
     width: 300px;
     margin-left: 100px;
@@ -406,7 +432,7 @@ width: 100%;
 }
 /* Givet den et id, da margin top ikke skal være så høj i denne boks,
 da der er flere linjer med H1 */
-.interiørtop {
+#interiørtop {
     margin-top: 90px;
 }
 
@@ -599,8 +625,7 @@ footer section div svg {
 .shopkategori {
     display: flex;
     margin-left: 100px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 50px;
 }
 .shopkategori h1 {
     margin-top: 20px;
