@@ -5,7 +5,7 @@
 }
 
 
-#logo{
+#logo a img{
     display: flex;
     justify-content: center;
 
@@ -24,9 +24,14 @@
 
 #kurv{
     position: absolute;
-    right: 30px;
+    right: 50px;
     top: 20px;
 }
+
+#kurv:hover{
+    cursor: pointer;
+}
+
 
 .header-pc{
     background-color: rgba(255, 255, 255, 0.8);
@@ -79,9 +84,11 @@ nav .container .manu-main div li a{
 
 
 
-.nav-head h3 {
+.nav-head .menu-sub h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
+
+    color: black;
 }
 
 
@@ -127,7 +134,7 @@ nav .container .manu-main div li a{
     position: absolute;
     width: 820px;
 
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: white;
 
     /*dropdown menuen vises ikke når musen ikke holdes over*/
     display: none;
@@ -188,6 +195,8 @@ nav li:hover .menu-sub{
 .menu-sub div ul li a:hover{
     border-bottom: solid  rgb(0, 0, 210) 2px;
 }
+
+
 
 
 
