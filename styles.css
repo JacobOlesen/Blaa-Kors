@@ -345,6 +345,9 @@ nav li:hover .menu-sub{
     .header-mobil {
       display: none;
     }
+    .filtermobil {
+        display: none;
+    }
   }
 
 
@@ -661,7 +664,7 @@ footer section div svg {
     font-family: 'Oswald', sans-serif;
     color: rgb(0, 0, 210);
     width: 100%;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 200px;
 }
 #topshop h2 {
@@ -683,9 +686,7 @@ footer section div svg {
 }
 .shopkategori {
     display: flex;
-    margin-left: 100px;
-    margin-top: 50px;
-    margin-left: 50px;
+    justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -704,12 +705,43 @@ footer section div svg {
     color: white;
 }
 .shopdamebillede {
-    height: 400px;
     width: 300px;
     margin-left: 25px;
     margin-right: 25px;
 }
 
+@media only screen and (max-width: 890px) {
+    .shopkategori .plus, .shopkategori .hvid, .shopkategori .plushvid {
+        display: none;
+    }
+    .filter {
+        display: none;
+    }
+    .filter h1 {
+        font-size: 10pt;
+        padding: 10px;
+    }
+    .shopdamebillede img {
+        margin-right: auto;
+        margin-left: auto;
+        columns: 3;
+    }
+    #topshop {
+        padding-top: 100px;
+    }
+    .filtermobil {
+        display: flex;
+        font-size: 10pt;
+        justify-content: center;
+    }
+    .filtermobil h1 {
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: 300;
+    }
+
+}
 
 
 
