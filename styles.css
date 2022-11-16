@@ -188,12 +188,12 @@ nav li:hover .menu-sub{
 
 
 /*stregens egenskaber*/
-#hover-underline {
+.hover-underline {
     position: relative;
   }
   
   
-  #hover-underline::after {
+  .hover-underline::after {
     /*stregen skal være under teksten*/
     content: '';
 
@@ -223,7 +223,7 @@ nav li:hover .menu-sub{
     transition: transform 0.25s ease-out;
   }
   
-  #hover-underline:hover::after {
+  .hover-underline:hover::after {
     /*stregens bredde(x-værdi) er synlig og hele rekstens 
     bredde, når man stopper med at hover*/
     transform: scaleX(1);
