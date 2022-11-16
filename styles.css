@@ -48,9 +48,7 @@
     width: 100%;
 }
 
-.main-forside{
-    margin-top: 190px;
-}
+
 
 
 /*nav bar*/
@@ -96,16 +94,15 @@ nav .container .manu-main div li a{
 #banner{
     background-image: url(img/banner.jpg);
     height: 850px;
-    margin-top: -190px;
     display: flex;
     justify-content: center;
 }
 
 #banner div {
-    background-color: rgba(255, 255, 255, 0.8);
+
     position: relative;
-    top: 400px;
-    width: 800px;
+    top: 300px;
+    width: 60%;
     height: 150px;
 }
 #banner h1 {
@@ -114,6 +111,9 @@ nav .container .manu-main div li a{
     color: rgb(0, 0, 210);
     text-align: center;
     font-size: 50pt;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #banner h2 {
     text-transform: uppercase;
@@ -121,6 +121,10 @@ nav .container .manu-main div li a{
     font-weight: 400;
     color: rgb(0, 0, 210);
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-right: 10px;
+    padding-left: 10px;
+    
 }
 
 
@@ -281,9 +285,40 @@ nav li:hover .menu-sub{
         position: relative;
     }
     
-    .main-forside{
-        margin-top: 20px;
+   
+
+    .diy{
+        display: block;
+        flex-direction: column;
+
+        padding-bottom: 700px;
+        padding-top: 600px;
     }
+
+    .diy .stearin, .diy .redskabsholder {
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #banner h1{
+        font-size: 35pt;
+    }
+
+    #banner h2{
+        font-size: 15pt;
+    }
+
+    .shop{
+        flex-direction: column;
+        
+        padding-top: 820px;
+        padding-bottom: 900px;
+    }
+    .shop .damer, .shop .herre, .shop .interiør {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
   }
 
   @media only screen and (min-width: 890px) {
@@ -347,20 +382,15 @@ nav li:hover .menu-sub{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    justify-content: center;
 }
-
-.shop div {
-width: 100%;
-}
-
-
 
 .damer {
     border: solid black 2px;
     margin-top: 50px;
     height: 600px;
     width: 300px;
-    margin-left: 170px;
+    margin-left: 75px;
     padding: 10px;
     box-shadow: 0px 0px 15px #000000;
     background-image: url(images/damer.jpg);
@@ -373,6 +403,7 @@ width: 100%;
 
 #nottarget, #interiørtop {
     transform: scale(1.0);
+    width: 160px;
 }
 
 .herre {
@@ -380,8 +411,8 @@ width: 100%;
     background-color: black;
     height: 400px;
     width: 300px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
     border: 1px solid;
     padding: 10px;
     padding: 10px;
@@ -396,6 +427,7 @@ width: 100%;
     margin-right: 100px;
     padding: 10px;
     box-shadow: 0px 0px 15px #000000;
+    background-size: cover;
 }
 
 .damer h1 {
@@ -448,17 +480,17 @@ da der er flere linjer med H1 */
     height: 500px;
     width: 350px;
     margin-top: 75px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 10px;
     box-shadow: 5px 10px 18px #000000;
 
 }
 
-#stearin {
+.stearin {
     background-image: url(images/stearinlys.jpg);
 }
-#redskabsholder {
+.redskabsholder {
     background-image: url(images/redskabsholder.jpg);
 }
 
@@ -469,6 +501,7 @@ da der er flere linjer med H1 */
     margin-left: 10px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    width: 400px;
 }
 .diy h2 {
     color: rgb(0, 0, 210);
