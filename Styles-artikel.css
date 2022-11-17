@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-main section div img{
-    width: 100%;
-}
 
 .flex-float-box{
     display: flex;
@@ -66,7 +63,7 @@ main section div img{
     line-height: 28px;
 }
 
-.redskaber li{
+.redskaber p{
     font-size: 14pt;
     line-height: 35px;
 }
@@ -121,3 +118,9 @@ main section div img{
         padding-right: 10%;
     
     }
+
+    .float-box{
+        bottom: 50px;
+        margin-bottom: 20px;
+    }
+}
