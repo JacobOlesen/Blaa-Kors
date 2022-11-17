@@ -275,6 +275,23 @@ nav li:hover .menu-sub{
     width: 60%;
     height: 150px;
 }
+
+#banner div{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
 #banner h1 {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -503,7 +520,25 @@ da der er flere linjer med H1 */
 .shopfp div {
     display: flex;
     width: 100%;
-}  
+}
+
+.shopfp .shoph1,
+.shopfp .shoph2,
+.shopfp .shoph3 {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 .shopfp {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
