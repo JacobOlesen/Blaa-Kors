@@ -264,7 +264,7 @@ nav li:hover .menu-sub{
 
 /* HER STARTER FØRSTE SEKTION PÅ FORSIDEN */
 #banner{
-    background-image: url(img/banner.jpg);
+    background-image: url(images/banner.jpg);
     height: 850px;
     display: flex;
     justify-content: center;
@@ -590,6 +590,10 @@ da der er flere linjer med H1 */
     margin-left: 25px;
     margin-right: 25px;
 }
+.pris {
+    font-weight: 200;
+    font-size: 10pt;
+}
 
 @media only screen and (max-width: 890px) {
     .shopkategori .plus, .shopkategori .hvid, .shopkategori .plushvid {
@@ -661,12 +665,14 @@ main section div img{
     font-size: 34pt;
     
     margin-bottom: 16px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .float-box h3{
     font-size: 20pt;
 
     margin-bottom: 16px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .artikel{
@@ -683,6 +689,7 @@ main section div img{
     font-size: 18pt;
 
     margin-bottom: 16px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .tekst p{
@@ -701,6 +708,8 @@ main section div img{
     font-size: 18pt;
 
     margin-bottom: 16px;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .redskaber p{
@@ -783,6 +792,7 @@ main section div img{
     font-size: 34pt;
     
     margin-bottom: 16px;
+    
 }
 
 .float-box h3{
