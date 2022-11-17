@@ -351,6 +351,10 @@ nav li:hover .menu-sub{
     transform: scale(1.0);
     width: 160px;
 }
+#nottarget a {
+    text-decoration: none;
+    color: rgb(0, 0, 210);
+}
 .herre {
     margin-top: 150px;
     background-image: url(images/herre.jpg);
